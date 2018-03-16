@@ -1,0 +1,11 @@
+[Oo]bj/
+[Bb]in/
+.vs/
+*.user
+*.log
+*.vspscc
+*.vssscc
+*.suo
+*.userprefs
+*.vspx
+packages/
