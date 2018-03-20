@@ -2,13 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <DisableTransitiveProjectReferences>true</DisableTransitiveProjectReferences>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DatabaseLayer\DatabaseLayer.csproj">
-      <PrivateAssets>All</PrivateAssets>
-    </ProjectReference>
+    <ProjectReference Include="..\DatabaseLayer\DatabaseLayer.csproj"/>
   </ItemGroup>
 
 </Project>
